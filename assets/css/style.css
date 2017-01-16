@@ -1,0 +1,138 @@
+header {
+	border-bottom: solid gray 3px;
+}
+
+body {
+
+}
+
+p {
+	font-family: arial;
+}
+
+#oscarl {
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left:100px;
+	padding:25px;
+	background-color: #4aaaa5;
+	color:white;
+}
+
+.navmenu {
+	display: inline-block;
+	float:right;
+	margin-right:200px;
+}
+
+#aboutme {
+	margin:10px;
+	color:#4aaaa5;
+	font-family: serif;
+}
+
+/*#aboutbox,*/
+#profilepic {
+	float: left;
+	margin-left: 2%;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+#profilepic {
+	left: 0;
+}
+
+/*#moveright { 
+	float: right;
+	vertical-align: top;
+	 }*/
+
+/*a {
+	text-decoration: none;
+	color:gray;
+}*/
+
+.content {
+	background-color: #dddddd;
+	border-bottom: 6px teal solid;
+}
+
+#aboutbox {
+	width: 65%;
+	/*width:700px;*/
+	display: inline-block;
+	border: 1px solid gray;
+	background-color: #ffffff;
+	margin-left: :225px;
+	padding-left: 15px;
+}
+
+
+
+#connectbox {
+	width: 20%;
+	position: fixed;
+	display: inline-block;
+	vertical-align: top;
+	/*margin:70px;*/
+	border: 1px solid gray;
+	background-color: white;
+	padding-left: 20px;
+	padding bottom: 20px;
+	margin-left: 50px;
+	/*padding:10px;*/
+}
+
+#hr2 {
+	margin-right: 15px;
+	color:#4aaaa5;
+	font-family: Georgia;
+}
+
+.footer {
+	background-color: #666666
+	color:#bbb4a6;
+	text-align: center;
+	padding: 30px;
+}
+
+#copyright {
+	vertical-align: middle;
+}
+		
+		/* place holder images obviously adjust the url() to fix them */
+#github {
+	height:40px;
+	width:40px;
+	/*margin: auto;*/
+	margin-right: 3px;
+	margin-left:25px;
+	margin-bottom: 10px;
+	/*background-image: url(assets/images/ol_github.png);*/
+	background-size: 50px 50px;
+	
+}
+
+#link {
+	height:40px;
+	width:40px;
+	/*margin: auto;*/
+	margin-right: 3px;
+	margin-bottom: 10px;
+	/*background-image: url(assets/images/ol_linkedin.png);*/
+	background-size: 50px 50px;
+	/*border:none;*/
+}
+
+		
+#stackoverflow {
+	height:40px;
+	width:40px;
+	margin-bottom: 10px;
+	/*margin: auto;*/
+	/*background-image: url(assets/images/ol_stackoverflow-social-media.png);*/
+	background-size: 50px 50px;
+	/*border:none;*/
+}
