@@ -1,53 +1,62 @@
 header {
-	border-bottom: solid gray 3px;
+	
+	width: 960px;
+	margin: auto;
+	/*color: white;*/
 }
 
 body {
-
+background-image: url(../images/sayagata-400px.png);
+font-size: 18px;
+font-family: times;
 }
 
 p {
 	font-family: arial;
+	margin: auto;
 }
 
+.navbar {
+	width: 100%;
+	border-bottom: solid gray 3px;
+	background-color: white;
+
+}
 #oscarl {
 	display: inline-block;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left:100px;
-	padding:25px;
+	font-size: 34px;
+	font-family: times;
+	margin: 0px;
+	padding:16px;
 	background-color: #4aaaa5;
 	color:white;
 }
 
 .navmenu {
-	display: inline-block;
+	/*display: inline-block;*/
 	float:right;
-	margin-right:200px;
+	/*margin-right:100px;
+	margin-right: 17px;*/
+	margin: 0px;
+	margin-top: 25px;
+	margin-right: 40px
 }
 
-#aboutme {
-	margin:10px;
-	color:#4aaaa5;
-	font-family: serif;
+#navchildren {
+	/*margin-right: 170px;
+	margin-top: 20px;*/
+	font-family: sans-serif;: 
 }
+
 
 /*#aboutbox,*/
 #profilepic {
 	float: left;
-	margin-left: 2%;
-	margin-right: 20px;
-	margin-bottom: 10px;
+	height: 200px;
+	width: 200px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
-
-#profilepic {
-	left: 0;
-}
-
-/*#moveright { 
-	float: right;
-	vertical-align: top;
-	 }*/
 
 /*a {
 	text-decoration: none;
@@ -55,47 +64,101 @@ p {
 }*/
 
 .content {
-	background-color: #dddddd;
-	border-bottom: 6px teal solid;
+	/*margin-top: -1px;*/
+	width: 960px;
+	margin: auto;
+	margin-top: 20px;
+	/*width: 100%;*/
+	/*background-color: #dddddd;*/
+	
+	/*border-bottom: 6px teal solid;*/
+	/*vertical-align: top;*/
+	/*padding-left: 96px;*/
+	/*border-bottom: 6px teal solid;*/
+	/*padding-left: 5px;
+	padding-right: 5px;*/
+
 }
 
 #aboutbox {
-	width: 65%;
-	/*width:700px;*/
+	width:650px;
 	display: inline-block;
 	border: 1px solid gray;
 	background-color: #ffffff;
-	margin-left: :225px;
-	padding-left: 15px;
+	margin-bottom: 20px;
 }
 
+#aboutme {
+	margin:10px;
+	color:#4aaaa5;
+	font-size: 28px;
+	font-family: serif;
+}
 
+#miniaboutbox {
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+#hr1 {
+	color:#cccccc;
+	margin-right: 12px;
+	margin-left: 12px;
+}
+
+.aboutboxchild { 
+	margin-right: 10px;
+	margin-left: 10px;
+
+	 }
 
 #connectbox {
-	width: 20%;
-	position: fixed;
+	/*min-width: 20%;*/
+	width: 270px;
+	float: right;
+	/*margin-top: 20px;*/
+	margin-left: 10px;
+	/*position: fixed;*/
 	display: inline-block;
 	vertical-align: top;
 	/*margin:70px;*/
 	border: 1px solid gray;
 	background-color: white;
-	padding-left: 20px;
+	/*padding-left: 20px;
 	padding bottom: 20px;
-	margin-left: 50px;
+	margin-left: 65px;
+	margin-top: 20px;*/
 	/*padding:10px;*/
 }
 
-#hr2 {
-	margin-right: 15px;
+#billburr {
+	color: #4aaaa5;
+}
+
+#header2 {
+	font-size: 25px;
+	font-family: times;
+	padding-left: 47px;
 	color:#4aaaa5;
-	font-family: Georgia;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#hr2 {
+	margin-right: 30px;
+	margin-left: 30px;
+	color:#4aaaa5;
 }
 
 .footer {
-	background-color: #666666
+	width: 100%;
+	background-color: #666;
 	color:#bbb4a6;
 	text-align: center;
-	padding: 30px;
+	padding: 20px;
+	margin: 0 auto;
+	border-top: 6px teal solid;
 }
 
 #copyright {
@@ -104,20 +167,21 @@ p {
 		
 		/* place holder images obviously adjust the url() to fix them */
 #github {
-	height:40px;
-	width:40px;
+	height:55px;
+	width:55px;
 	/*margin: auto;*/
 	margin-right: 3px;
-	margin-left:25px;
+	margin-left:22px;
 	margin-bottom: 10px;
 	/*background-image: url(assets/images/ol_github.png);*/
 	background-size: 50px 50px;
+	padding-left: 15px;
 	
 }
 
 #link {
-	height:40px;
-	width:40px;
+	height:55px;
+	width:55px;
 	/*margin: auto;*/
 	margin-right: 3px;
 	margin-bottom: 10px;
@@ -128,11 +192,238 @@ p {
 
 		
 #stackoverflow {
-	height:40px;
-	width:40px;
+	height:55px;
+	width:55px;
 	margin-bottom: 10px;
 	/*margin: auto;*/
 	/*background-image: url(assets/images/ol_stackoverflow-social-media.png);*/
 	background-size: 50px 50px;
 	/*border:none;*/
+}
+
+
+/* duplicate of aboutbox for contact form */
+#contactbox {
+	/*max-width: 65%;*/
+	/*width:650px;
+	display: inline-block;
+	border: 1px solid gray;
+	background-color: #ffffff;
+	margin-left: :225px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 15px;
+	padding-right: -15px; */
+	width:649px;
+	display: inline-block;
+	border: 1px solid gray;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+	
+}
+
+/* duplicate of aboutme for contact form */
+#contact {
+	margin:10px;
+	margin-bottom: 15px;
+	color:#4aaaa5;
+	font-size: 32px;
+	font-family: serif;
+}
+
+form {
+  /* Just to center the form on the page */
+  width: 648px;
+
+  /* To see the limits of the form */
+  padding: 1em;
+  /*border: 1px solid #CCC;
+  border-radius: 1em;*/
+  margin-top: -8px;
+}
+
+.formchild {
+	/*margin-right: 40px;
+	margin-left: -10px;*/
+}
+
+/*div + div {
+  margin-top: 1em;
+}*/
+
+label {
+  /* To make sure that all label have the same size and are properly align */
+  display: inline-block;
+  width: 99px;
+  width: 10%;
+  text-align: right;
+  color:#cccccc;
+  font-family: arial;
+  font-size: 23px;
+  margin-bottom: 10px;
+ /* margin-right: 15px;*/
+
+}
+
+input, textarea {
+  /* To make sure that all text field have the same font settings
+     By default, textarea are set with a monospace font */
+  font: 1em sans-serif;
+   color:#cccccc;
+  width: 94%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  display: inline-block;
+}
+
+#msg {
+	padding-bottom: 125px;
+}
+
+#name, #mail {
+	margin-bottom: -10px;
+}
+
+#submit {
+	padding: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 20px;
+	font-family: serif;
+	margin-top: -28px;
+	margin-right: 15px;
+
+}
+
+/*Portfolio CSS Begins*/
+
+#portfoliobox {
+	/*max-width: 65%;*/
+	width:650px;
+	display: inline-block;
+	border: 1px solid gray;
+	background-color: #ffffff;
+	/*margin-left: :225px;*/
+	/*margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 15px;
+	padding-right: -15px;*/ 
+}
+
+/* duplicate of aboutme for contact form */
+#portfolio {
+	margin:10px;
+	color:#4aaaa5;
+	font-size: 28px;
+	font-family: serif;
+}
+
+.port {
+	/*margin-left: 35px;*/
+	/*display: inline-block;*/
+	width: 100%;
+	margin: auto;
+	margin-bottom: 8px;
+	/*margin-left: 37px;*/
+	/*padding-left: 1px; 
+	padding-right: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-right: 1px;
+	margin-left:1px;
+	margin-top :1px;
+	margin-bottom: 1px;*/
+
+}
+
+.portchild {
+	/*display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+	background: green;
+	padding-bottom: 80%;*/
+	/*min-width: 20%;*/
+	width:650px;
+	/*position: fixed;*/
+	display: inline-block;
+	vertical-align: top;
+	/*margin:70px;*/
+	border: 1px solid gray;
+	background-color: white;
+	padding-left: 20px;
+	padding bottom: 20px;
+	margin-left: 65px;
+	margin-top: 20px;
+	/*padding:10px;*/
+}
+
+.portbackchild {
+	position: relative;
+	display: inline-block;
+	background-image: url(../images/profile_1.png);
+	width: 44%;
+	height: 135px;
+	margin: auto;
+	margin-bottom: 7px;
+	margin-left: 21px;
+	/*vertical-align: center;*/
+	/*padding-left: 1px; 
+	padding-right: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-right: 1px;
+	margin-left:1px;
+	margin-top :1px;
+	margin-bottom: 1px;*/
+}
+
+.portbuttons {
+	/*display: inline-block;*/
+	/*padding-right: 100px;
+	padding-left: 100px;*/
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 20px;
+	padding: 14px;
+	margin: auto;
+	margin-top: 25%;
+	width: 100%;
+	font-family: serif;
+	/*margin-top: -28px;
+	margin-right: 15px;*/
+}
+
+#portbutton1 {
+	/*display: inline-block;*/
+	margin-right: 5px;
+
+}
+
+#portbutton2 {
+	display: inline-block;
+
+}
+
+#portbutton3 {
+	display: inline-block;
+	margin-right: 5px;
+
+
+}
+
+#button3 {
+	/*margin-left: 2px;*/
+}
+
+#portbutton4 {
+	display: inline-block;
+
+}
+
+#portbutton5 {
+	display: inline-block;
+	margin-right: 5px;
+
 }
